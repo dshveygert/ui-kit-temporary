@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "dist",
+    "lib": ["es2017", "es7", "es6", "dom"],
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/App.tsx",
+    "src/index.tsx",
+    "src/logo.svg",
+    "src/react-app-env.d.ts",
+    "src/reportWebVitals.ts",
+    "src/Router.tsx",
+    "src/setupTests.ts",
+  ]
+}
